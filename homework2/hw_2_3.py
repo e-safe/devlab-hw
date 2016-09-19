@@ -1,5 +1,4 @@
 # coding=utf-8
-
 c = int(input('c:'))
 g=''
 for i in range(0,10):

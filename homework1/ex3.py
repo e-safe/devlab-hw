@@ -1,6 +1,4 @@
 a = int(input('INT=?'))
-
-
 def interwall(x):
     if 12 > x > -15:
         return True
@@ -10,6 +8,4 @@ def interwall(x):
         return True
     else:
         return False
-
-
 print(interwall(a))

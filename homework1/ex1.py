@@ -1,7 +1,5 @@
 # coding=utf-8
 number = int(input("Введите целое положительное число: "))
-
-
 def FIB(x):
     a = 0
     b = 1
@@ -20,6 +18,4 @@ def FIB(x):
             a = b
             b = c
             counter += 1
-
-
 FIB(number)

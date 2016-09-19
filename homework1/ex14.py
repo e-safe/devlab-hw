@@ -1,6 +1,8 @@
 # coding=utf-8
-a = str(raw_input("Введите что нибудь:"))
-def def_a(a):
-   while i < int(len(a)):
-       a[i].strip(a)
-print def_a(a)
+word = str(input("Введите что нибудь:"))
+result = ''
+glasn = 'ауеыоэяию'
+for i in word:
+    if i not in glasn:
+        result += i
+print(result)

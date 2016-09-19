@@ -1,6 +1,5 @@
 a = int(input("a = "))
 
-
 list = range(1, a + 1)
 n = 1
 if a <= 0:
